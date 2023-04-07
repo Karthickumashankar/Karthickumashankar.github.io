@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="Viewport" content="width=device-width, initial-Scale=1.0"> 
+        <title>Karthick's Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2b5e9cd297.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header"> 
+        <div class="container">
+            <nav>
+                <img style="margin-top: 20px;" src="images/LOGO.png" class="LOGO" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="img-alt">
+            <div class="header-txt">
+                <p>Software & Web Developer | Electrical and Electronics Engineer</p>
+                <h1>Hi, I'm <span>Karthick Umashankar</span><br>from Tamil Nadu</h1>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- about myself -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/TWO1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Aspiring Software and Web Developer pursuing a bachelor's degree in Electrical and Electronics Engineering from KPR Institutions. Skilled in programming, IoT-Related projects and website developing. Collaborative team player who can work independently when needed. Possesses a strong ability using multitask and stay calm under pressure.</p>
+                    <h2><br>Career Objective</h2>
+                    <p>I am seeking a company that will provide ample opportunities for me to enhance my skills and knowledge and contribute to the organization's growth.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('internships')">Internships</p>
+                        <p class="tab-links" onclick="opentab('educations')">Educations</p>
+                    </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming</span><br>Java programming</li>
+                                <li><span>Web Development</span><br>Html | Css | JavaScript | Basics of ReactJS</li>
+                                <li><span>Internet of Things</span><br>Light Weight Modules like Sensors and Actuators</li>
+                                <li><span>Photo and Video Editing</span><br>Adobe Photoshop | Davinci Resolve 17</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="internships">
+                            <ul>
+                                <li><span>Sai Incubation Center Coimbatore</span><br>IoT-Related projects and Modules of Microcontroller</li>
+                                <li><span>Appin Technology Lab Coimbatore</span><br>Web development using scripting languages</li>
+                                <li><span>Sanjith Controls Coimbatore</span><br>Starter Manufacturing and MCB control panel design</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="educations">
+                            <ul>
+                                <li><span>2020-2024</span><br><b>BE Electrical and Electronics Engineering</b><br>KPR Institute of Engineering and Technology Coimbatore</li>
+                                <li><span>2020</span><br><b>Higher Secondary School Certification</b><br>Vigneswara Vidyalaya Matric Hr Sec School Tirupur</li>
+                                <li><span>2018</span><br><b>Secondary School Leaving Certification</b><br>Vigneswara Vidyalaya Matric Hr Sec School Tirupur</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- -------------------Service-------------------- -->
+         <!-- <div id="service">
+            <div class="container">
+                <h1 class="subtitle">My Service</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Web Development</h2>
+                        <p>Web developers build websites and ensure they perform reliably and efficiently. Learn more about this critical role in the tech industry and how to get started.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Software Development</h2>
+                        <p>Web developers build websites and ensure they perform reliably and efficiently. Learn more about this critical role in the tech industry and how to get started.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+         </div> -->
+         <!-- ---------------------Portfolio ---------- -->
+         <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/Smart-Home-Security-System-Installation.jpg">
+                        <div class="layer">
+                            <h2>Home Automation using voice Recognition</h2>
+                            <p>IoT-related project for Smart Home</p>
+                            <a href="images/HOME AUTOMATION USING VOICE RECOGNITION DOCUMENTARY.docx " ><i class="fa-sharp fa-solid fa-file-arrow-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/sdi.jpg">
+                        <div class="layer">
+                            <h2>Web Design</h2>
+                            <p>Portfolio website using HTML,CSS and JavaScript</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/iotlab-01.jpg">
+                        <div class="layer">
+                            <h2>Smart Body Posture Corrector</h2>
+                            <p>IoT and Medical related projects</p>
+                            <a href="#"><i class="fa-solid fa-lock"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="thanksindex.html" class="btn">See more</a>
+            </div>
+         </div>
+         <!-- ---------------------------Contact-------------------- -->
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact</h1>
+                        <p><i class="fas fa-paper-plane"></i> karthickumashankar0019@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-square-phone"></i> 91+ 8144757434</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/theri.karthi.35"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/_karthickofficial_/?hl=en"><i class="fab fa-instagram "></i></a>
+                            <a href="https://www.linkedin.com/in/karthick-umashankar-60b744243/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <div>
+                            <a href="images/KARTHICK UMASHANKAR (20EE043).pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button> 
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Karthick Made with <i class="fas fa-heart"></i> by myself</p>
+            </div>
+         </div>
+
+         <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+                 
+            }
+         </script>
+         <script>
+            var sidemeu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right="0";
+            } 
+            function closemenu(){
+                sidemeu.style.right="-200px";
+            }
+
+         </script>
+         <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx8lEFJByBaxTz3Vx8FwOU7PNnq1BykIio2AKcYybWEoscOy_PXGHe-WZdrtE5ZJFr28Q/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
