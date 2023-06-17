@@ -191,7 +191,7 @@ nav ul li a:hover::after{
     
 }
 .service-list div{
-    background: #424040;
+    background: #232222;
     padding: 60px;
     font-size: 18px;
     font-weight: 200;
@@ -263,8 +263,8 @@ nav ul li a:hover::after{
     margin-right: 90px;
 }
 .work img{
-    height: 300px;
-    width: 300px;
+    height: 600px;
+    width: 1200px;
     border-radius: 20px;
     display: flexbox;
     transition: transform 0.5s;
@@ -425,14 +425,13 @@ nav .fas{
     }
     .header-txt{
         font-size: 30px;
-        font-weight: 700;
     }
     .header-txt p{
-        margin-top: 0;
-
+        font-size: 20px;
+        font-weight: 500;
     }
     .header-txt h1{
-        font-size: 35px;
+        font-size: 30px;
     }
     .header-txt h1 span{
         color: #e18009;
@@ -442,11 +441,10 @@ nav .fas{
         font-size: 25px;
     }
     nav h1{
-        padding: 3px 0px 3px;
         font-size: 30px;
     }
     nav ul{
-        background: #e18009;
+        background: #b88b18;
         position: fixed;
         top: 0;
         right: -200px;
@@ -459,6 +457,25 @@ nav .fas{
     nav ul li{
         display: block;
         margin: 25px;
+    }
+    nav ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+    }
+    nav ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #070707;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+    nav ul li a:hover::after{
+        width: 100%;
     }
     nav ul .fas{
         position: absolute;
@@ -511,17 +528,15 @@ nav .fas{
         position: relative;
         overflow: hidden;
         align-content: center;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 60px;
-        margin-right: 60px;
-        height: 250px;
-        width: 500px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 90px;
+        margin-right: 90px;
         
     }
     .work img{
         height: 250px;
-        width: 280px;
+        width: 250px;
         border-radius: 10px;
         display: flexbox;
         transition: transform 0.5s;
@@ -533,7 +548,7 @@ nav .fas{
     }
     .layer a{
         margin-top: 20px;
-        color: #52035e;
+        color: #970bac;
         text-decoration: none;
         font-size: 15px;
         line-height: 30px;
