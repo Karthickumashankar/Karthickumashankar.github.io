@@ -497,14 +497,16 @@ nav .fas{
         flex-basis: 100%;
     }
     .about-col-1{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .about-col-1 img{
-        height: 550px;
+        height: 500px;
+        margin-top: 0%;
     }
     .about-col-2{
         font-size: 23px;
         padding: 10px;
+        margin-right: 5px;
     }
     .tab-links{
         font-size: 20px;
