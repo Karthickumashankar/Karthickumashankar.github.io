@@ -499,6 +499,9 @@ nav .fas{
     .about-col-1{
         margin-bottom: 30px;
     }
+    .about-col-1 img{
+        height: 550px;
+    }
     .about-col-2{
         font-size: 23px;
         padding: 10px;
