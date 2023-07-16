@@ -206,6 +206,7 @@ nav ul li a:hover::after{
     transition: background 1s,transform 1s;
     color: #000;
     font-style: italic;
+    width: auto;
 }
 .service-list div i{
     font-size: 50px;
