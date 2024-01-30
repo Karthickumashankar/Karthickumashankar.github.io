@@ -108,11 +108,9 @@ nav ul li a:hover::after{
     flex-basis: 42%;
 }
 .about-col-1 img{
-    width: 800px;
-    height: 950px;
+    width: 900px;
+    height: 850px;
     margin-top: 20px;
-  margin-left:50px;
-  margin-right:auto;
     border-radius: 20px;
 }
 .about-col-2{
