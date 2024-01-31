@@ -105,13 +105,11 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 45%;
-    margin-top: auto;
-    margin-bottom: auto;
+    flex-basis: 43%;
 }
 .about-col-1 img{
     width: 520px;
-    height: 770px;
+    height: 870px;
    
     border-radius: 20px;
    
