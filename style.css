@@ -80,7 +80,7 @@ nav ul li a:hover::after{
 .header-txt p{
     color: #fdfdfd;
     font-weight: 370;
-    font-size: 28px;
+    font-size: 24px;
     
 }
 .header-txt h1{
@@ -105,13 +105,17 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 42%;
+    flex-basis: 45%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .about-col-1 img{
-    width: 900px;
-    height: 850px;
-    margin-top: 20px;
+    width: 520px;
+    height: 770px;
+   
     border-radius: 20px;
+   
+  
 }
 .about-col-2{
     flex-basis: 55%;
