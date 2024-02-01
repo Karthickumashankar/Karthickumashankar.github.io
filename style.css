@@ -105,15 +105,15 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 42%;
+    flex-basis: 43%;
 }
 .about-col-1 img{
-    width: 920px;
-    height: 850px;
+    width: 590px;
+    height: 750px;
     border-radius: 25px;
 }
 .about-col-2{
-    flex-basis: 54%;
+    flex-basis: 55%;
 }
 .about-col-2 h2{
     color: #000;
