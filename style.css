@@ -83,12 +83,33 @@ nav ul li a:hover::after{
     font-size: 24px;
     
 }
-.header-txt h1{
-    font-size: 65px;
-    margin-top: 20px;
-}
 .header-txt h1 span{
-    color: #c27415;
+    /* color: #c27415; */
+  position:relative;
+  color: #000;
+  -webkit-text-stroke: 0.3vw #000;
+  text-tranform:uppercase;
+}
+.header-txt h1 span::before{
+  content: attr(data-text);
+  position:absolute;
+  top:0;
+  left:0;
+  width: 0;
+  height:100%;
+  color: #c27415;
+  -webkit-text-stroke:0vw grey;
+  border-right:2px solid #c27415;
+  overflow:hidden;
+  animation: animate 6s linear infinite;
+}
+@keyframes animate{
+  0%,30%{
+    width:0;
+  }
+  80%,100%{
+    width:100%
+  }
 }
 /* about me */
 #about{
